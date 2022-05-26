@@ -9,13 +9,13 @@ This repository contains PowerShell cmdlets for interacting with the [Huntress](
 
 ### PowerShell Gallery
 
-Run the following command in an elevated PowerShell session to install the rollup module for Huntress PowerShell cmdlets:
+Run the following command in an elevated PowerShell session to install the module for Huntress PowerShell cmdlets:
 
 ```powershell
 Install-Module -Name PSHuntress
 ```
 
-If you have an earlier version of the Huntress PowerShell modules installed from the PowerShell Gallery and would like to update to the latest version, run the following commands in an elevated PowerShell session:
+If you have an earlier version of the Huntress PowerShell module installed from the PowerShell Gallery and would like to update to the latest version, run the following commands in an elevated PowerShell session:
 
 ```powershell
 Update-Module -Name PSHuntress
