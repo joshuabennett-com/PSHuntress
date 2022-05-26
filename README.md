@@ -7,7 +7,7 @@ This repository contains PowerShell cmdlets for interacting with the [Huntress](
 
 # Installation 
 
-### PowerShell Gallery
+### [PowerShell Gallery](https://www.powershellgallery.com/packages/PSHuntress)
 
 Run the following command in an elevated PowerShell session to install the module for Huntress PowerShell cmdlets:
 
