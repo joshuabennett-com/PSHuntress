@@ -25,6 +25,7 @@ Update-Module -Name PSHuntress
 
 Generate your API Key and API Secret from the [Huntress Dashboard](https://huntress.io/account/api_credentials). Store these values in a secure manner (e.g. a secure password manager), as they will not be shown again.
 
+
 ### Set credentials and base URI
 ```powershell
 Add-HuntressAPIKey -HUNTRESS_API_KEY "YOUR_PUBLIC_KEY"
@@ -32,7 +33,7 @@ Add-HuntressAPISecret -HUNTRESS_API_SECRET "YOUR_PRIVATE_KEY"
 Add-HuntressBaseURI -HUNTRESS_BASE_URI 'https://api.huntress.io/v1/'
 ```
 
-### Import authentication credentials
+### Export and Import authentication credentials
 ```powershell
 Export-HuntressAPISettings
 Import-HuntressAPISettings
